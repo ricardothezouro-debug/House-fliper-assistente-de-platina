@@ -31,3 +31,8 @@ Thumbs.db
 
 # Database
 progresso.db
+# O ícone do card é versionado de propósito (§5 do PLUGIN_STANDARD).
+!src/platina_house_flipper/assets/brand/icon.png
+
+# Build antigo do app desktop (pré-plugin)
+*.zip
