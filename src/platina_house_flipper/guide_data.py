@@ -21,7 +21,7 @@ ACCENT = "#4F8DFF"  # azul do assistente original
 HERO_IMAGE = "https://cdn.akamai.steamstatic.com/steam/apps/613100/header.jpg"
 
 # Parágrafo de abertura.
-INTRO = "Guia de platina do House Flipper (jogo base) em português. A ideia é a mesma do guia de DREDGE: se o guia mandar fazer algo, ele também diz em qual casa, com qual móvel, em que ordem e por quê. Metade da platina são os 10 compradores — e para esses o guia traz tanto o perfil que o jogo pontua quanto a receita testada."
+INTRO = "São 24 troféus, nada perdível e cerca de 20 horas. Metade depende de fazer um comprador específico vencer o leilão, e é aí que a maioria empaca: cada um dos 10 pontua a casa do seu jeito, então a reforma que agrada um afunda outro. O resto é fechar todas as ordens em 100%, vender as 37 casas uma vez e chegar a 50 vendas."
 
 # Números de destaque exibidos no topo.
 HERO_STATS = [
@@ -55,7 +55,7 @@ SECTIONS = [
         "nav": "Passo a passo",
         "eyebrow": "Rota cronológica",
         "title": "Siga nesta ordem",
-        "lead": "Cada passo diz o que fazer, onde, quando e por que naquele momento — não é só “jogue até sair”.",
+        "lead": "A ordem abaixo evita retrabalho: as ordens rendem o dinheiro e os perks, os compradores vêm do mais barato ao mais caro, e o Game Over já adianta 37 das 50 vendas.",
         "notices": [
             {
                 "tone": "info",
@@ -73,7 +73,7 @@ SECTIONS = [
         "nav": "Compradores",
         "eyebrow": "Os 10 leilões",
         "title": "Um troféu por comprador",
-        "lead": "Metade da platina são os 10 compradores. Cada card traz o PERFIL dele (o que o jogo pontua) e a RECEITA testada (casa + itens exatos).",
+        "lead": "São 10 troféus, um por comprador. O jogo pontua a casa conforme o gosto de cada um — abaixo estão as preferências e a reforma que faz cada um vencer o leilão.",
         "notices": [
             {
                 "tone": "info",
@@ -87,7 +87,7 @@ SECTIONS = [
         "nav": "24 Troféus",
         "eyebrow": "Platina",
         "title": "Os 24 troféus do jogo base",
-        "lead": "1 platina, 7 ouro, 8 prata e 8 bronze. Requisito conferido e o atalho mais curto para cada um.",
+        "lead": "1 platina, 7 ouro, 8 prata e 8 bronze. Nenhum é perdível: depois do Game Over qualquer casa pode ser recomprada e revendida à vontade.",
         "notices": [
             {
                 "tone": "info",
