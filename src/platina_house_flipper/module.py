@@ -38,6 +38,8 @@ def module_info():
 
 
 def help_text() -> str:
+
+    from .paths import guide_dir_label
     return (
         "Guia de platina de House Flipper (jogo base) em PT-BR, em 10 abas.\n\n"
         "Antes de começar:\n"
@@ -58,7 +60,7 @@ def help_text() -> str:
         "• A busca do topo procura em passos, troféus, casas e compradores ao mesmo "
         "tempo.\n\n"
         "O progresso é salvo automaticamente em "
-        "%APPDATA%/StreamerSidekick/platinas/house-flipper/ e sobrevive a "
+        f"{guide_dir_label()} e sobrevive a "
         "atualizações. Use Exportar/Importar para levar o progresso para outro PC."
     )
 
